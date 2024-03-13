@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/python-39
+FROM registry.access.redhat.com/ubi9/python-39:1-172
 
 RUN pip install --upgrade --no-cache-dir jupyterlab
 
