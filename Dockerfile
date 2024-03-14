@@ -1,10 +1,9 @@
 FROM registry.access.redhat.com/ubi9/python-39:1-172
 
-# Install requirements
-RUN \
-  if [ -f requirements.txt ]; \
-    then pip install --upgrade --no-cache-dir -r requirements.txt; \
-  fi
+COPY requirements.txt ./
+
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r ./requirements.txt
 
 #OLD
 #RUN pip install --upgrade --no-cache-dir jupyterlab
