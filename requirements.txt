@@ -1,0 +1,12 @@
+jupyterlab
+pandas
+seaborn
+boto3
+cx-Oracle
+matplotlib
+openpyxl
+xlrd
+pandas
+numpy
+scipy
+zipfile38
