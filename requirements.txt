@@ -11,6 +11,5 @@ xlrd==2.0.1
 numba==0.59.0
 numpy==1.26.4
 pyarrow==15.0.0
-scikit-learn==1.5.2
 zipfile38==0.0.3
 pycaret==3.3.2
